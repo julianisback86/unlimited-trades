@@ -1,0 +1,22 @@
+"schemaVersion": 1,
+  "id": "unlimitedtrades",
+  "version": "${version}",
+  "name": "Unlimited Trades Server",
+  "description": "Hebt das Villager-Trade-Limit nur fuer einen bestimmten Spieler auf.",
+  "authors": ["julianisback86"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.example.unlimitedtrades.UnlimitedTrades"
+    ]
+  },
+  "mixins": [
+    "unlimitedtrades.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}
